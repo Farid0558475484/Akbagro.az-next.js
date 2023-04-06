@@ -10,10 +10,6 @@
   }
 }
 
-.navbar__links a {
-  text-decoration: none;
-  list-style-type: none;
-}
 .navbar__links li {
   list-style-type: none;
   text-align: center;
@@ -30,4 +26,13 @@
     font-size: 30px;
     font-weight: 800;
   }
+}
+
+.navbar__links a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.bodyMenu {
+  background-color: #1f4e3d;
 }
