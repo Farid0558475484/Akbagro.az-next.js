@@ -14,16 +14,16 @@ export default function Navbar() {
       <div>
         <ul className={styles.navbar__links}>
           <li>
-            <Link href="/about-us">About</Link>
+            <Link href="/about-us">Haqqımızda</Link>
           </li>
           <li>
-            <Link href="/products">Products</Link>
+            <Link href="/products">Məhsullar</Link>
           </li>
           <li>
-            <Link href="/services">Services</Link>
+            <Link href="/services">Xidmətlər</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">Əlaqə</Link>
           </li>
         </ul>
       </div>

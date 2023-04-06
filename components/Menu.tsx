@@ -39,16 +39,19 @@ function Menu() {
             <div>
               <ul className={s.navbar__links}>
                 <li onClick={handleClose}>
-                  <Link href="/about-us">About</Link>
+                  <Link href="/">Ana seyfe</Link>
                 </li>
                 <li onClick={handleClose}>
-                  <Link href="/products">Products</Link>
+                  <Link href="/about-us">Haqqımızda</Link>
                 </li>
                 <li onClick={handleClose}>
-                  <Link href="/services">Services</Link>
+                  <Link href="/products">Məhsullar</Link>
                 </li>
                 <li onClick={handleClose}>
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/services">Xidmətlər</Link>
+                </li>
+                <li onClick={handleClose}>
+                  <Link href="/contact">Əlaqə</Link>
                 </li>
               </ul>
             </div>

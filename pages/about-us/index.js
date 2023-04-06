@@ -1,9 +1,9 @@
+import About from "../../components/About";
 
 export default function AboutUs() {
-    return (
-      <>
-        <h1>About-us</h1>
-      </>
-    );
-  }
-  
+  return (
+    <>
+      <About />
+    </>
+  );
+}
