@@ -6,7 +6,7 @@ import s from "../styles/About.module.scss";
 function About() {
   return (
     <>
-      <Container>
+      <Container className={s.aboutMain}>
         <Row>
           <Col md="6">
             <div className={s.content}>
@@ -17,6 +17,14 @@ function About() {
                 peşəkar işçiləri ilə sektorda keyfiyyət, peşəkar iş intizamı,
                 yüksək effektivlik anlayışı və müştəri məmnuniyyətini başlıca
                 vəzifə kimi rəhbər tutaraq fəaliyyətini davam etdirir.
+              </p>
+              <p className={s.text}>
+                Biz Akb Agro şirkəti olaraq hər növ suvarma sistemlərinin
+                satışını, bağlara, villalara və əkin sahələrinə son texnologiya
+                ilə çəkilməsini həyata keçiririk. Yeni başladığımız illərdən
+                indiyə qədər təcrübəli işçilərimiz sayəsində bir çox layihələrə
+                uğurla imza atmışıq. Biz müştərilərərimizə satdığımız
+                məhsulların keyfiyyətinə hər zəmən diqqət edirik.
               </p>
             </div>
           </Col>
@@ -33,7 +41,7 @@ function About() {
           </Col>
         </Row>
         <Row>
-          <Col md="6">
+          <Col md="6" className={s.order2}>
             <Image
               src="/img6.jpeg"
               alt="Logo"
@@ -43,10 +51,10 @@ function About() {
               objectFit="cover"
             />
           </Col>
-          <Col md="6">
-            <h1>Şirkətin missiyası</h1>
+          <Col md="6" className={s.order1}>
+            <h1 className={s.title}>Şirkətin missiyası</h1>
 
-            <p>
+            <p className={s.text}>
               Şirkətin əsas missiyası – suya qənaət, məhsuldarlıq və
               rentabelliyi artırmaq məqsədi ilə kənd təsərrüfatı və
               yaşıllaşdırma sahəsində intensiv suvarma metodlarının tətbiqi, su
@@ -57,9 +65,9 @@ function About() {
         </Row>
         <Row>
           <Col md="6">
-            <h1>Dünyanın aparıcı markasi</h1>
+            <h1 className={s.title}>Dünyanın aparıcı markasi</h1>
 
-            <p>
+            <p className={s.text}>
               Akb Agro suvarma sistemləri sektorunda dünyanın aparıcı
               markalarından biridir. Şirkətimiz kainatın ən qiymətli resursundan
               daha düzgün və səmərəli istifadə etmək üçün müasir avadanlıqlar və
@@ -85,7 +93,7 @@ function About() {
           </Col>
         </Row>
         <Row>
-          <Col md="6">
+          <Col md="6" className={s.order2}>
             <Image
               src="/img8.webp"
               alt="Logo"
@@ -95,10 +103,10 @@ function About() {
               objectFit="cover"
             />
           </Col>
-          <Col md="6">
-            <h1>Bizə müraciət</h1>
+          <Col md="6" className={s.order1}>
+            <h1 className={s.title}>Bizə müraciət</h1>
 
-            <p>
+            <p className={s.text}>
               Bizə müraciət etməklə keyfiyyətli məhsulu və sərfəli qiyməti bir
               ünvanda tapmış olacaqsınız. Dünyanın tanınmış şirkətlərinin
               istehsalı olan ən müasir avadanlıqlar təsərrüfat xərclərinizin
