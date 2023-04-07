@@ -120,6 +120,22 @@ function About() {
             </p>
           </Col>
         </Row>
+        <Row>
+          <Col md="6">
+            <h1 className={s.title}>Münasib qiymət</h1>
+
+            <p className={s.text}>
+              Müasir suvarma avadanlıqlarını münasib qiymətlərlə
+              filiallarımızdan əldə edə bilərsiniz.
+            </p>
+          </Col>
+
+          <Col md="6">
+            <div className={s.logoPhoto}>
+              <Image src="/logo.png" alt="Logo" width={250} height={250} />
+            </div>
+          </Col>
+        </Row>
       </Container>
     </>
   );

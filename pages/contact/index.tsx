@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
       <Container fluid>
-        <Row className="mt-5">
+        <Row className="mt-5 mb-5">
           <Col >
             <Image
               src="/img9.jpeg"
