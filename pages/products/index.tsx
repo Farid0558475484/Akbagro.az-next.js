@@ -4,13 +4,14 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Image from "next/image";
+import s from "./../../styles/Products.module.scss";
 
 function Products() {
   return (
     <Container>
       <Row className="mt-5 mb-5">
-        <Col md="3">
-          <Card >
+        <Col xl="3" xs="6">
+          <Card className={s.card}>
             <Image
               src="/p1.webp"
               alt="Logo"
@@ -20,13 +21,13 @@ function Products() {
               objectFit="cover"
               priority
             />
-            <Card.Body>
-              <Card.Title>Kurtağzı çıxış nipeli</Card.Title>
+            <Card.Body className={s.card}>
+              <Card.Title className={s.card}>Kurtağzı çıxış nipeli</Card.Title>
             </Card.Body>
           </Card>
         </Col>
-        <Col md="3">
-          <Card >
+        <Col xl="3" xs="6">
+          <Card className={s.card}>
             <Image
               src="/p1.webp"
               alt="Logo"
@@ -36,13 +37,13 @@ function Products() {
               objectFit="cover"
               priority
             />
-            <Card.Body>
-              <Card.Title>PE tee inegal</Card.Title>
+            <Card.Body className={s.card}>
+              <Card.Title className={s.card}>PE tee inegal</Card.Title>
             </Card.Body>
           </Card>
         </Col>
-        <Col md="3">
-          <Card >
+        <Col xl="3" xs="6">
+          <Card>
             <Image
               src="/p1.webp"
               alt="Logo"
@@ -57,8 +58,8 @@ function Products() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md="3">
-          <Card >
+        <Col xl="3" xs="6">
+          <Card>
             <Image
               src="/p1.webp"
               alt="Logo"
