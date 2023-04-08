@@ -55,7 +55,7 @@ function About() {
         <Row>
           <Col md="6" className={s.order2}>
             <Image
-              src="/img6.jpeg"
+              src="/img9.jpeg"
               alt="Logo"
               width={100}
               height={100}

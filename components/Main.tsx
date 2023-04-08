@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import s from "../styles/Main.module.scss";
-
+import Servis from "./Servis";
 
 function Main() {
   return (
@@ -60,35 +60,7 @@ function Main() {
             />
           </Col>
         </Row>
-        {/* <Row>
-          <div className="elementor-widget-container">
-            <a
-              // href="https://en.npcagro.com/soil-scanning-and-analysis/"
-              className="elementor-cta"
-            >
-              <div className="elementor-cta__bg-wrapper">
-                <div
-                  className="elementor-cta__bg elementor-bg"
-                  // style="background-image: url(https://en.npcagro.com/wp-content/uploads/sites/22/2019/08/Untitled-1-2.jpg);"
-                ></div>
-                <div className="elementor-cta__bg-overlay"></div>
-              </div>
-              <div className="elementor-cta__content">
-                <div className="elementor-content-item elementor-cta__content-item elementor-cta__image elementor-animated-item--grow">
-                  <Image
-                    src="/img15.jpeg"
-                    alt="Logo"
-                    width={100}
-                    height={100}
-                    layout="responsive"
-                    objectFit="cover"
-                  />
-              
-                </div>
-              </div>
-            </a>
-          </div>
-        </Row> */}
+        <Servis />
         <Row className="mt-3 ">
           <Col md="6" className={s.order2}>
             <Image
@@ -122,6 +94,7 @@ function Main() {
             </p>
           </Col>
         </Row>
+
       </Container>
     </>
   );
