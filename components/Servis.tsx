@@ -6,7 +6,13 @@ function Servis() {
   return (
     <>
       <Container>
-        <Row className="mt-5">
+
+        <Row  className="mt-3">
+          <h2 className={s.serviceTitle}>
+          Xidmətlər
+          </h2>
+        </Row>
+        <Row className="mt-3">
           <Col md="4">
             <div className={s.cardBody}>
               <div className={s.cardImg}>
@@ -23,9 +29,9 @@ function Servis() {
               <div className={s.cardfoot}>
                 <div className={s.tre}>
                   <a href="#">
-                    <h4>Torpaq skaneri və analizi</h4>
+                    <h4>Damci suvarma sistemleri</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     AKB Agro
                     </p>
                   </a>
                 </div>
@@ -48,9 +54,9 @@ function Servis() {
               <div className={s.cardfoot}>
                 <div className={s.tre}>
                   <a href="#">
-                    <h4>İqlim stansiyaları və ağıllı idarəetmə sistemləri</h4>
+                  <h4>Cileme suvarma sistemleri</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     AKB Agro
                     </p>
                   </a>
                 </div>
@@ -73,89 +79,16 @@ function Servis() {
               <div className={s.cardfoot}>
                 <div className={s.tre}>
                   <a href="#">
-                    <h4>Dəqiq suvarma dizaynı, monitorinqi və SideRoll</h4>
+                  <h4>Ağıllı gübrələmə</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     AKB Agro
                     </p>
                   </a>
                 </div>
               </div>
             </div>
           </Col>
-          <Col md="4">
-            <div className={s.cardBody}>
-              <div className={s.cardImg}>
-                <Image
-                  src="/8.jpeg"
-                  alt="Logo"
-                  width={100}
-                  height={100}
-                  layout="responsive"
-                  objectFit="cover"
-                />
-              </div>
-
-              <div className={s.cardfoot}>
-                <div className={s.tre}>
-                  <a href="#">
-                    <h4>Peyk vasitəsilə görüntüləmə NDVİ</h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </Col>
-          <Col md="4">
-            <div className={s.cardBody}>
-              <div className={s.cardImg}>
-                <Image
-                  src="/4.png"
-                  alt="Logo"
-                  width={100}
-                  height={100}
-                  layout="responsive"
-                  objectFit="cover"
-                />
-              </div>
-
-              <div className={s.cardfoot}>
-                <div className={s.tre}>
-                  <a href="#">
-                    <h4>İrrometr - Tansiometr</h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </Col>
-          <Col md="4">
-            <div className={s.cardBody}>
-              <div className={s.cardImg}>
-                <Image
-                  src="/7.jpeg"
-                  alt="Logo"
-                  width={100}
-                  height={100}
-                  layout="responsive"
-                  objectFit="cover"
-                />
-              </div>
-              <div className={s.cardfoot}>
-                <div className={s.tre}>
-                  <a href="#">
-                    <h4>Teejet - sahə yönləndirmə sistemləri</h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </Col>
+       
         </Row>
       </Container>
     </>
