@@ -16,7 +16,7 @@ function Menu() {
       <div className={s.bodyMenu}>
         <div className={s.MobileMenu}>
           <Link href="/">
-            <Image src="/logo.png" alt="Logo" width={50} height={50} />
+            <Image src="/logo.png" alt="Logo" width={50} height={50} className={s.border} />
           </Link>
           <a href="tel:+99477384242">
             <Button variant="success">Zeng et</Button>

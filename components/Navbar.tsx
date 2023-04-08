@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.navbar__logo}>
         <Link href="/">
-          <Image src="/logo.png" alt="Logo" width={50} height={50} />
+          <Image src="/logo.png" alt="Logo" width={50} height={50}  className={styles.border}/>
         </Link>
       </div>
       <div>

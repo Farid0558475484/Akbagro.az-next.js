@@ -3,6 +3,11 @@
   justify-content: space-around;
   align-items: center;
   padding: 1rem 0;
+  background-color: #38a849;
+}
+
+.border{
+  border-radius: 50%;
 }
 @media screen and (min-width: 768px) {
   .MobileMenu {
@@ -36,4 +41,5 @@
 }
 .bodyMenu {
   background-color: #1f4e3d;
+  margin-bottom: 20px;
 }
