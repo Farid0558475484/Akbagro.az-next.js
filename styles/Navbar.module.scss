@@ -5,6 +5,7 @@
   padding: 1rem;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #38a849;
 }
 
 .navbar__logo a {
@@ -16,6 +17,7 @@
   justify-content: flex-end;
   align-items: center;
   list-style: none;
+  
 }
 
 .navbar__links li {
@@ -28,8 +30,9 @@
   text-decoration: none;
   font-weight: bold;
   &:hover {
-    color: #38a849;
+    color: black;
   }
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -54,3 +57,5 @@
     margin: 8px;
   }
 }
+
+

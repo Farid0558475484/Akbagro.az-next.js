@@ -1,7 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
-import img1 from "../public/img1.webp";
 import s from "../styles/Slider.module.scss";
 
 function Slider() {
