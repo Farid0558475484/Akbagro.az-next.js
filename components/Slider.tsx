@@ -18,7 +18,7 @@ function Slider() {
         />
         <Carousel.Caption>
           <h3>Akb Agro</h3>
-          <p>Avtomatik suvarma</p>
+          <p>Damci suvarma sistemleri</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -34,24 +34,25 @@ function Slider() {
 
         <Carousel.Caption>
           <h3>Akb Agro</h3>
-          <p>Damcı suvarma sistemləri</p>
+          <p>Cileme suvarma sistemleri</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          src="/img3.jpeg"
+          src="/s2.jpeg"
           alt="Logo"
-          className={s.img}
           width={100}
-          height={70}
+          height={100}
           layout="responsive"
           objectFit="cover"
+          className={s.img}
         />
         <Carousel.Caption>
           <h3>Akb Agro</h3>
-          <p>Damlama boruları</p>
+          <p>Ağıllı gübrələmə</p>
         </Carousel.Caption>
       </Carousel.Item>
+      
     </Carousel>
   );
 }
