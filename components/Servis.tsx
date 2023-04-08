@@ -17,7 +17,7 @@ function Servis() {
             <div className={s.cardBody}>
               <div className={s.cardImg}>
                 <Image
-                  src="/1.jpeg"
+                  src="/1.webp"
                   alt="Logo"
                   width={100}
                   height={100}
@@ -42,7 +42,7 @@ function Servis() {
             <div className={s.cardBody}>
               <div className={s.cardImg}>
                 <Image
-                  src="/2.jpeg"
+                       src="/3.webp"
                   alt="Logo"
                   width={100}
                   height={100}
@@ -67,7 +67,7 @@ function Servis() {
             <div className={s.cardBody}>
               <div className={s.cardImg}>
                 <Image
-                  src="/3.jpeg"
+                  src="/2.webp"
                   alt="Logo"
                   width={100}
                   height={100}
