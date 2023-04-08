@@ -39,7 +39,7 @@ function Menu() {
             <div>
               <ul className={s.navbar__links}>
                 <li onClick={handleClose}>
-                  <Link href="/">Ana seyfe</Link>
+                  <Link href="/">Şirkət</Link>
                 </li>
                 <li onClick={handleClose}>
                   <Link href="/about-us">Haqqımızda</Link>

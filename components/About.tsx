@@ -6,20 +6,32 @@ import s from "../styles/About.module.scss";
 function About() {
   return (
     <>
+    <Container fluid>
+      <Row className="mt-5">
+      <Image
+              src="/img12.jpeg"
+              alt="Logo"
+              width={100}
+              height={100}
+              layout="responsive"
+              objectFit="cover"
+            />
+      </Row>
+    </Container>
       <Container className={s.aboutMain}>
         <Row>
           <Col md="6">
             <div className={s.content}>
-              <h1 className={s.title}>Akb Agro-ya xoş gəldiniz!</h1>
+              <h1 className={s.title}>“AKB Agro-ya xoş gəldiniz!</h1>
 
               <p className={s.text}>
-                “Akb Agro” şirkəti 2023-ci ildə yaradılmışdır. Şirkətimiz
+              “AKB Agro” şirkəti 2023-ci ildə yaradılmışdır. Şirkətimiz
                 peşəkar işçiləri ilə sektorda keyfiyyət, peşəkar iş intizamı,
                 yüksək effektivlik anlayışı və müştəri məmnuniyyətini başlıca
                 vəzifə kimi rəhbər tutaraq fəaliyyətini davam etdirir.
               </p>
               <p className={s.text}>
-                Biz Akb Agro şirkəti olaraq hər növ suvarma sistemlərinin
+                Biz “AKB Agro şirkəti olaraq hər növ suvarma sistemlərinin
                 satışını, bağlara, villalara və əkin sahələrinə son texnologiya
                 ilə çəkilməsini həyata keçiririk. Yeni başladığımız illərdən
                 indiyə qədər təcrübəli işçilərimiz sayəsində bir çox layihələrə
@@ -68,7 +80,7 @@ function About() {
             <h1 className={s.title}>Dünyanın aparıcı markasi</h1>
 
             <p className={s.text}>
-              Akb Agro suvarma sistemləri sektorunda dünyanın aparıcı
+            “AKB Agro suvarma sistemləri sektorunda dünyanın aparıcı
               markalarından biridir. Şirkətimiz kainatın ən qiymətli resursundan
               daha düzgün və səmərəli istifadə etmək üçün müasir avadanlıqlar və
               innovativ həllər təklif edir. ​ Sürətlə qloballaşan dünyada üç

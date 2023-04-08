@@ -14,6 +14,9 @@ export default function Navbar() {
       <div>
         <ul className={styles.navbar__links}>
           <li>
+            <Link href="/">Şirkət </Link>
+          </li>
+          <li>
             <Link href="/about-us">Haqqımızda</Link>
           </li>
           <li>
