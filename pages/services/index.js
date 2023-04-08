@@ -1,9 +1,9 @@
+import Servis from "../../components/Servis";
 
 export default function Services() {
-    return (
-      <>
-        <h1>Services</h1>
-      </>
-    );
-  }
-  
+  return (
+    <>
+      <Servis />
+    </>
+  );
+}
